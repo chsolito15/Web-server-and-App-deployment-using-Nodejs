@@ -18,7 +18,7 @@ app.use((req, res, next) =>{
             console.log('Unable to append to server.log.');
         }
     })
-    next(); // when refresh page render quickly
+    next(); 
 });
 
 /* app.use((req, res, next) =>{
